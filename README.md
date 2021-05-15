@@ -4,14 +4,14 @@
 
 Разработать структуру программы "Бухгалтерия".
 
-+ main.py;
-+ директория application:
--- salary.py;
--- директория db:
---- people.py;
-main.py - основной модуль для запуска программы.
-В модуле salary.py функция calculate_salary.
-В модуле people.py функция get_employees.
++ main.py;  
++ директория application:  
+-- salary.py;  
+-- директория db:  
+--- people.py;  
+main.py - основной модуль для запуска программы.  
+В модуле salary.py функция calculate_salary.  
+В модуле people.py функция get_employees.  
     
 ### Задание 2 
 
@@ -27,5 +27,5 @@ if __name__ == '__main__':
 
 ### Задание 4 (необязательное задание)
 
-Создать рядом с файлом main.py модуль dirty_main.py и импортировать все функции с помощью конструкции
+Создать рядом с файлом main.py модуль dirty_main.py и импортировать все функции с помощью конструкции  
 from package import*
